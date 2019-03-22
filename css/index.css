@@ -85,8 +85,8 @@ header logo {
  }
 
 header nav {
-    margin-top: 40px;
-    width: 500px;
+    /* margin-top: 40px; */
+    width: 610px;
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -94,6 +94,10 @@ header nav {
 
 header nav a {
     text-decoration: none;
+}
+
+header logo {
+    margin-top: 20px;
 }
 
 /*******************************************************/
