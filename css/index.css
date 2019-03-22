@@ -279,3 +279,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* *** about page middle ********************/
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2.0;
+}
+
+.about-middle-content .about-card {
+    padding-bottom: 20px;
+    width: 400px;
+    background: whie;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content .about-card button {
+    padding: 5px 20px;
+    margin-top: 20px;
+    background: white;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
