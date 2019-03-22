@@ -306,3 +306,29 @@ footer nav a {
     border: 2px solid black;
 }
 
+/**** strategy - learn more *****/
+
+
+.strategy-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 2.0;
+}
+
+.strategy-middle-content .strategy-card {
+    padding-bottom: 20px;
+    width: 420px;
+    background: whie;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.strategy-middle-content .strategy-card button {
+    padding: 5px 20px;
+    margin-top: 20px;
+    background: white;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
