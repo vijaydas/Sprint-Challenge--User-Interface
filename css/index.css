@@ -71,10 +71,50 @@ p {
     margin: 0 auto;
 }
 
+/* header and nav *************************************/
+
+header {
+    width: 100%;
+    display: flex;
+
+}
+
+header logo {
+    padding: 40px;
+  
+ }
+
+header nav {
+    /* margin-top: 40px; */
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header logo {
+    margin-top: 20px;
+}
+
+/*******************************************************/
+
+.about-top-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -101,10 +141,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +282,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* *** about page middle ********************/
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2.0;
+}
+
+.about-middle-content .about-card {
+    padding-bottom: 20px;
+    width: 400px;
+    background: whie;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content .about-card button {
+    padding: 5px 20px;
+    margin-top: 20px;
+    background: white;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/**** strategy - learn more *****/
+
+
+.strategy-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 2.0;
+}
+
+.strategy-middle-content .strategy-card {
+    padding-bottom: 20px;
+    width: 420px;
+    background: whie;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.strategy-middle-content .strategy-card button {
+    padding: 5px 20px;
+    margin-top: 20px;
+    background: white;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid black;
 }

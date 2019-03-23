@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+There are many tags used in HTML but they can be broadly categorized into meaningful to people and those that are used for presentation only. For example a ```<div>``` tag is not meaningful whereas a tag like ```<table>``` does have meaning and can indicate to a user what is coming.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+1. ```display: block;``` will insert a line break and ```display: inline``` will not.
+2. ```display: block;``` does not respect any padding or margin attributes and ```display: inline``` will respect padding and margin attributes for top and bottom.
 
 3. What are the 4 areas of the box model?
 
+The box model contains 4 attributes starting with content then padding, then border, then margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis, ie perpendicular to the main axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable for maintaining code across teams and across period of time. Without git (or other versioning system), it would be very difficult to coordinate development of code over time with many developers. Git allows several versions to exist and for work to be accomplished in branches that can be developed and tested and then merged with the main code (master) in an organized and disciplined fashion by designated maintainers. The system was originally developed for open source projects but has since become invaluable for any development in teams or even individuals.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
